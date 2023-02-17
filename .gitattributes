@@ -1,3 +1,5 @@
 .github/** -linguist-vendored
 .github/** linguist-detectable
+docs/** -linguist-vendored
+docs/** linguist-detectable
 * linguist-detectable
