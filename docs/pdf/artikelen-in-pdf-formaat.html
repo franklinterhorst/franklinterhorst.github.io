@@ -441,36 +441,8 @@
           <div class="v2 ps16 s18 c17">
             <p class="p3"><a href="bijbelse-onderwerpen.html" class="f3">Bijbelse onderwerpen</a></p>
           </div>
-          <div class="v2 ps17 s19 c18">
-            <form class="v2 ps18 s19" role="search" id="form">>
-              <div class="v2 ps6 s20 c4">
-                <input type="text" name="search" required="" class="input1" id="query">
-                <button>
-                  <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
-                </button>
-              </div>
-              <div class="un1 v3 ps19 s21 c19">
-                <a onclick="var p=this;while(p.nodeName!='FORM')p=p.parentNode;if('requestSubmit'in p){p.requestSubmit()}else{p.submit()}return false;" class="a2 f4">Zoeken</a>
-              </div>
-            </form>
-          </div>
         </div>
       </div>
     </div>
-    <script>
-      const f = document.getElementById('form');
-      const q = document.getElementById('query');
-      const searchengine = 'https://startpage.com/search?q=site%3A+';
-      const site = 'franklinterhorst.github.io';
-
-      function submitted(event) {
-        event.preventDefault();
-        const url = searchengine + site + '+' + q.value;
-        const win = window.open(url, '_blank');
-        win.focus();
-      }
-
-      f.addEventListener('submit', submitted);
-    </script>
   </body>
 </html>
