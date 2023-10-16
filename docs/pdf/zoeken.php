@@ -7,12 +7,24 @@
   $countsearchterms= count($search);
   $submitbutton= $_POST['submit'];
 ?>
-
-<form action="" method="POST">
-Enter Search Query: 
-<input type="text" name="search_entered" value='test'/> <br><br>
-<input type="submit" name="submit" value="Search"/><br><br>
-</form>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Artikelen in PDF-formaat</title>
+    <link rel="icon" type="image/png" href="/0home/images/pasted-image-472.png">
+    <meta name="referrer" content="same-origin">
+    <link rel="canonical" href="artikelen-in-pdf-formaat.html">
+    <meta name="robots" content="noindex,nofollow">
+  </head>
+  <body>
+    <form action="" method="POST">
+    Enter Search Query: 
+    <input type="text" name="search_entered" value='test'/> <br><br>
+    <input type="submit" name="submit" value="Search"/><br><br>
+    </form>
+  </body>
+</html>
 
 <?php
 $directory = "/";
